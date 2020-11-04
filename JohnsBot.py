@@ -55,7 +55,7 @@ for line in file_lines:
             pass
     except tweepy.TweepError as e:
         print(e.reason)
-    time.sleep(10)
+    time.sleep(86400)
     
 
 #print("Twitter bot which retweets,like tweets and follow users")
