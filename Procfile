@@ -1,1 +1,1 @@
-worker python JohnsBot.py
+worker python3 JohnsBot.py
