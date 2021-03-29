@@ -3,10 +3,10 @@ from tweepy import OAuthHandler
 
 import time
 
-consumer_token = 'IruhpnVfPGVAh5hBivzW1gAWk'
-consumer_secret = 'tYs8rloWpMatyXS0B2CqQwB4c731J7ksvPqFRjKpGGfX5bPDx6'
-access_token = '1317324413231005697-MtfX7P8wIhtY0rJ8CNxaJPdmYYiqO5'
-access_token_secret = 'veyBSAT6MlV0Qzda82SZwqoZWv0zS9B7CR7RBgHxf2l0y'
+#consumer_token = 'hidden'
+#consumer_secret = 'hidden'
+#access_token = 'hidden'
+#access_token_secret = 'hidden'
 
 auth = tweepy.OAuthHandler(consumer_token, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
